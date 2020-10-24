@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="design.css">
-        <script src="tabs.js"></script>
-    </head>
-    <body>
-        <div class = "content">
-            <header>
 
-                <h1>
-                    <b>London the bursing capital of Britain</b>
-                </h1>
-                <div class="tab">
-                    <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Home')">Home</button>
-                    <button class="tablinks" onclick="openCity(event, 'History')">History</button>
-                    <button class="tablinks" onclick="openCity(event, 'Culture')">Culture</button>
-                    <button class="tablinks" onclick="openCity(event, 'Things to do')">Things to do</button>
-                </div>
+<head>
+    <link rel="stylesheet" href="design.css">
+    <script src="tabs.js"></script>
+</head>
 
-                <div id="Home" class="tabcontent">
-                    <h3>Home</h3>
-                    <p>Home page...</p>
-                  </div>
+<body>
+    <div class="content">
+        <header>
 
-                  <div id="History" class="tabcontent">
-                    <h3>History</h3>
-                    <p>London history...</p>
-                  </div>
-                  
-                  <div id="Culture" class="tabcontent">
-                    <h3>Culture</h3>
-                    <p>London culture...</p>
-                  </div>
-                  
-                  <div id="Things to do" class="tabcontent">
-                    <h3>Things to do</h3>
-                    <p>Fart...</p>
-                </div>
+            <h1>
+                <b>London the bursing capital of Britain</b>
+            </h1>
+            <div class="tab">
+                <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+                <button class="tablinks" onclick="openCity(event, 'History')">History</button>
+                <button class="tablinks" onclick="openCity(event, 'Culture')">Culture</button>
+                <button class="tablinks" onclick="openCity(event, 'Things to do')">Things to do</button>
+            </div>
 
-                <script>
-                    // Get the element with id="defaultOpen" and click on it
-                    document.getElementById("defaultOpen").click();
-                </script>
+            <div id="Home" class="tabcontent">
+                <h2>Home</h2>
+                <p>Hello, visitor</p>
+                <p>This is an advertisement about London's past and present</p>
+            </div>
 
-            </header>
+            <div id="History" class="tabcontent">
+                <h2>History</h2>
+                <p>Here you can learn more about the history of England</p>
+                <h3>Roman London</h3>
+                <p>
+                    Londinium was established as a civilian town by the Romans about four years after the invasion of
+                    the Romes.
+                    London, like Rome, was founded on the point of the river where it was narrow enough to bridge and
+                    the strategic
+                    location of the city provided easy access to much of Europe.During the 2nd century Londinium was at
+                    its height and
+                    replaced Colchester as the capital of Roman Britain (Britannia).By the 5th century, the Roman Empire
+                    was in rapid decline and in AD 410,
+                    the Roman occupation of Britannia came to an end. However, they left marks in the form of roads,
+                    monuments and other cultural treasure.
+                </p>
+                <h3>Anglo-Saxon London</h3>
+                <p>
+                    After the Romans left the island, Britons were uprotected and soon atacked by waves of Germanic
+                    tribes known as Angles, Saxons and Jutes.
+                    But in a few centuries later the inveders had to protect their lands from being taken over by the
+                    Vikings.
+                </p>
+            </div>
 
-            <footer>
-                    London for Bulgaria© 2020
-            </footer>
-        </div>
-    </body>
+            <div id="Culture" class="tabcontent">
+                <h2>Culture</h2>
+                <p>London culture...</p>
+            </div>
+
+            <div id="Things to do" class="tabcontent">
+                <h2>Things to do</h2>
+                <p>Fart...</p>
+            </div>
+
+            <script>
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
+
+        </header>
+
+        <footer>
+            London for Bulgaria© 2020
+        </footer>
+    </div>
+</body>
+
 </html>
