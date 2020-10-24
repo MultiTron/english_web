@@ -1,1 +1,53 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="design.css">
+        <script src="tabs.js"></script>
+    </head>
+    <body>
+        <div class = "content">
+            <header>
+
+                <h1>
+                    <b>London the bursing capital of Britain</b>
+                </h1>
+                <div class="tab">
+                    <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+                    <button class="tablinks" onclick="openCity(event, 'History')">History</button>
+                    <button class="tablinks" onclick="openCity(event, 'Culture')">Culture</button>
+                    <button class="tablinks" onclick="openCity(event, 'Things to do')">Things to do</button>
+                </div>
+
+                <div id="Home" class="tabcontent">
+                    <h3>Home</h3>
+                    <p>Home page...</p>
+                  </div>
+
+                  <div id="History" class="tabcontent">
+                    <h3>History</h3>
+                    <p>London history...</p>
+                  </div>
+                  
+                  <div id="Culture" class="tabcontent">
+                    <h3>Culture</h3>
+                    <p>London culture...</p>
+                  </div>
+                  
+                  <div id="Things to do" class="tabcontent">
+                    <h3>Things to do</h3>
+                    <p>Fart...</p>
+                </div>
+
+                <script>
+                    // Get the element with id="defaultOpen" and click on it
+                    document.getElementById("defaultOpen").click();
+                </script>
+                
+            </header>
+
+            <footer>
+                    London for Bulgaria© 2020
+            </footer>
+        </div>
+    </body>
+</html>
