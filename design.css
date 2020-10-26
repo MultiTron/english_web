@@ -2,6 +2,20 @@ p{
     padding-left: 2%;
 }
 
+img{
+    border: 1px solid #777;
+}
+
+.right{
+    float: right;
+    margin: 5px;
+}
+
+.left{
+    float: left;
+    margin: 5px;
+}
+
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
