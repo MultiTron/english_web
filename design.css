@@ -18,13 +18,16 @@ h1{
 }
 
 header{
-    background-color: cornflowerblue;
+    background-color: #4365bb;
     min-width: 200%;
+    border-radius: 10px;
 }
 
 body{
     background-color: black;
     background-image: url(london22.webp);
+    background-size: cover;
+    background-attachment: fixed;
     color:white;
 }
 
@@ -55,6 +58,5 @@ body{
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
